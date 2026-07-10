@@ -1,0 +1,19 @@
+{
+  "site_name": "세븐로그",
+  "site_name_en": "SevenLog",
+  "tagline": "교육 · 자동차 · 여행 · 요리 · AI · 게임 · 운동, 일곱 가지 실용 정보",
+  "description": "교육, 자동차, 여행, 요리, AI, 게임, 운동까지 일상에 바로 도움이 되는 실용 정보를 전하는 블로그입니다.",
+  "base_url": "https://kyc9393-bot.github.io/sevenlog",
+  "author": "세븐로그",
+  "contact_email": "kyc9393@gmail.com",
+  "adsense_client": "",
+  "categories": {
+    "education": {"name": "교육", "emoji": "📚", "color": "#4f6df5", "desc": "공부법, 자격증, 자기계발까지 배움에 관한 모든 것"},
+    "car": {"name": "자동차", "emoji": "🚗", "color": "#e0533d", "desc": "차량 관리, 운전 팁, 자동차 상식"},
+    "travel": {"name": "여행", "emoji": "✈️", "color": "#0ea5a4", "desc": "국내외 여행 코스, 준비물, 알뜰 여행 팁"},
+    "cooking": {"name": "요리", "emoji": "🍳", "color": "#f59e0b", "desc": "쉬운 레시피, 주방 살림 노하우"},
+    "ai": {"name": "AI", "emoji": "🤖", "color": "#8b5cf6", "desc": "AI 도구 활용법과 최신 인공지능 소식"},
+    "game": {"name": "게임", "emoji": "🎮", "color": "#ec4899", "desc": "게임 추천, 공략, 게이밍 장비 가이드"},
+    "fitness": {"name": "운동", "emoji": "💪", "color": "#22c55e", "desc": "홈트, 러닝, 건강한 운동 습관 만들기"}
+  }
+}

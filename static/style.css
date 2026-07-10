@@ -1,0 +1,160 @@
+/* ── 세븐로그 기본 스타일 ─────────────────────────────── */
+:root {
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --text: #1c1c22;
+  --text-soft: #5c5c66;
+  --line: #e7e7ec;
+  --accent: #3d5af1;
+  --radius: 14px;
+  --shadow: 0 1px 3px rgba(20, 20, 40, .06), 0 8px 24px rgba(20, 20, 40, .05);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #131318;
+    --surface: #1d1d25;
+    --text: #ececf1;
+    --text-soft: #a2a2ae;
+    --line: #2c2c36;
+    --shadow: 0 1px 3px rgba(0, 0, 0, .4);
+  }
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  font-size: 16.5px;
+  word-break: keep-all;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+
+/* header */
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  position: sticky; top: 0; z-index: 50;
+  backdrop-filter: blur(8px);
+}
+.header-inner { display: flex; align-items: center; gap: 18px; padding: 12px 20px; flex-wrap: wrap; }
+.logo {
+  font-weight: 800; font-size: 22px; color: var(--text);
+  display: flex; align-items: center; gap: 8px;
+}
+.logo:hover { text-decoration: none; }
+.logo::first-letter { color: var(--accent); }
+.logo span { font-size: 18px; }
+.site-nav { display: flex; gap: 4px; flex-wrap: wrap; margin-left: auto; }
+.nav-cat {
+  padding: 6px 10px; border-radius: 8px; font-size: 14px;
+  color: var(--text-soft); white-space: nowrap;
+}
+.nav-cat:hover { background: var(--bg); color: var(--text); text-decoration: none; }
+
+/* hero */
+.hero { text-align: center; padding: 56px 0 32px; }
+.hero h1 { font-size: 40px; margin: 0 0 8px; letter-spacing: -.5px; }
+.hero-tagline { color: var(--text-soft); margin: 0 0 24px; font-size: 17px; }
+.chips { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+.chip {
+  padding: 8px 16px; border-radius: 999px; background: var(--surface);
+  border: 1px solid var(--line); color: var(--text); font-size: 14.5px; font-weight: 600;
+  transition: transform .12s ease, border-color .12s ease;
+}
+.chip:hover { text-decoration: none; transform: translateY(-2px); border-color: var(--cat-color); }
+
+/* cards */
+.section-title { font-size: 24px; margin: 40px 0 16px; }
+.grid {
+  display: grid; gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  margin-bottom: 48px;
+}
+.card {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  transition: transform .14s ease, box-shadow .14s ease;
+}
+.card:hover { transform: translateY(-3px); }
+.card-link { display: block; padding: 20px; color: inherit; height: 100%; }
+.card-link:hover { text-decoration: none; }
+.card-cat {
+  display: inline-block; font-size: 13px; font-weight: 700;
+  color: var(--cat-color, var(--accent)); margin-bottom: 8px;
+}
+.card-title { margin: 0 0 8px; font-size: 18px; line-height: 1.45; }
+.card-desc {
+  margin: 0 0 14px; color: var(--text-soft); font-size: 14.5px;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.card-meta { font-size: 13px; color: var(--text-soft); }
+
+/* page head (category) */
+.page-head { text-align: center; padding: 48px 0 24px; }
+.page-head h1 { font-size: 32px; margin: 0 0 6px; }
+.page-head p { color: var(--text-soft); margin: 0 0 12px; }
+.empty { text-align: center; color: var(--text-soft); padding: 40px 0; }
+
+/* post */
+.post {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: clamp(24px, 5vw, 48px); margin: 32px 0;
+}
+.post-header { margin-bottom: 28px; }
+.post-cat { font-weight: 700; font-size: 14px; color: var(--cat-color, var(--accent)); }
+.post h1 { font-size: clamp(26px, 4.5vw, 34px); line-height: 1.35; margin: 10px 0 12px; letter-spacing: -.3px; }
+.post-meta { color: var(--text-soft); font-size: 14px; }
+.post-body h2 {
+  font-size: 23px; margin: 44px 0 14px; padding-top: 8px;
+  border-top: 1px solid var(--line); padding-top: 24px;
+}
+.post-body h3 { font-size: 18.5px; margin: 28px 0 10px; }
+.post-body p { margin: 0 0 16px; }
+.post-body ul, .post-body ol { padding-left: 24px; margin: 0 0 16px; }
+.post-body li { margin-bottom: 6px; }
+.post-body blockquote {
+  margin: 20px 0; padding: 12px 18px; border-left: 4px solid var(--accent);
+  background: var(--bg); border-radius: 0 8px 8px 0; color: var(--text-soft);
+}
+.post-body table {
+  width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 15px;
+  display: block; overflow-x: auto;
+}
+.post-body th, .post-body td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; }
+.post-body th { background: var(--bg); font-weight: 700; white-space: nowrap; }
+.post-body code {
+  background: var(--bg); border: 1px solid var(--line); border-radius: 6px;
+  padding: 2px 6px; font-size: 14px;
+}
+.post-body pre { background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 16px; overflow-x: auto; }
+.post-body pre code { border: 0; padding: 0; background: none; }
+.post-tags { margin-top: 28px; display: flex; gap: 8px; flex-wrap: wrap; }
+.tag { font-size: 13.5px; color: var(--text-soft); background: var(--bg); border: 1px solid var(--line); padding: 4px 10px; border-radius: 999px; }
+.static-page h1 { font-size: 28px; }
+
+/* related & ads */
+.related h2 { font-size: 21px; margin: 8px 0 16px; }
+.ad-box { margin: 28px 0; min-height: 90px; text-align: center; }
+
+/* footer */
+.site-footer {
+  border-top: 1px solid var(--line); margin-top: 40px; padding: 28px 0 40px;
+  text-align: center; color: var(--text-soft); font-size: 14px;
+}
+.footer-links a { color: var(--text-soft); margin: 0 2px; }
+.copyright { margin-top: 8px; }
+
+@media (max-width: 640px) {
+  .hero { padding: 36px 0 20px; }
+  .hero h1 { font-size: 30px; }
+  .site-nav { gap: 0; }
+  .nav-cat { padding: 6px 7px; font-size: 13px; }
+}

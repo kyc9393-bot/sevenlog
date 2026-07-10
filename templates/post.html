@@ -1,0 +1,15 @@
+<article class="post">
+  <header class="post-header">
+    <a href="{{ cat_url }}" class="post-cat" style="--cat-color: {{ cat_color }}">{{ cat_label }}</a>
+    <h1>{{ title }}</h1>
+    <div class="post-meta">
+      <time datetime="{{ date_iso }}">{{ date_human }}</time> · 약 {{ reading_min }}분 읽기
+    </div>
+  </header>
+  <div class="post-body">
+{{ body }}
+  </div>
+  {{ ad_bottom }}
+  <div class="post-tags">{{ tags }}</div>
+</article>
+{{ related }}
