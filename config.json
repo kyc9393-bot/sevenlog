@@ -6,7 +6,7 @@
   "base_url": "https://gospo.pe.kr",
   "author": "세븐로그",
   "contact_email": "kyc9393@gmail.com",
-  "adsense_client": "",
+  "adsense_client": "ca-pub-4871839906952771",
   "categories": {
     "education": {"name": "교육", "emoji": "📚", "color": "#4f6df5", "desc": "공부법, 자격증, 자기계발까지 배움에 관한 모든 것"},
     "car": {"name": "자동차", "emoji": "🚗", "color": "#e0533d", "desc": "차량 관리, 운전 팁, 자동차 상식"},
