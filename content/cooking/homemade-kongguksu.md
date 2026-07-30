@@ -5,6 +5,11 @@ description: 무더위에 생각나는 콩국수를 집에서 만드는 방법�
 tags: 콩국수, 콩물, 여름 요리, 서리태
 ---
 
+<figure>
+<img src="../img/homemade-kongguksu-hero.webp" alt="오이채와 통깨를 올린 서리태 콩국수 한 그릇" loading="lazy" decoding="async">
+<figcaption>사진: <a href="https://commons.wikimedia.org/wiki/File:%EC%84%9C%EB%A6%AC%ED%83%9C_%EC%BD%A9%EA%B5%AD%EC%88%98.jpg" rel="nofollow">Hyerimwon, Wikimedia Commons</a> (CC BY-SA 4.0)</figcaption>
+</figure>
+
 한여름 점심에 뜨거운 불 앞에 서고 싶지 않을 때 가장 먼저 떠오르는 메뉴가 콩국수입니다. 차갑고 고소한 콩물에 국수를 말아 오이채만 올리면 끝이라 완성된 모습은 더없이 단순한데, 막상 집에서 만들어 보면 의외로 실패담이 많은 음식이기도 합니다. 콩을 덜 삶으면 비린내가 나고, 너무 오래 삶으면 특유의 메주 냄새가 올라오기 때문입니다.
 
 사 먹자니 콩국수는 여름 한 철 메뉴라 가격이 만만치 않고, 시판 콩물은 편하긴 해도 고소함이 아쉽다는 분들이 많습니다. 반면 집에서 콩을 직접 불리고 삶아 갈면 콩 500g으로 온 가족이 두세 끼는 먹을 만큼 넉넉한 콩물이 나옵니다. 한 번 만들어 두면 국수뿐 아니라 콩물 자체를 음료처럼 마시기에도 좋습니다.
@@ -14,6 +19,11 @@ tags: 콩국수, 콩물, 여름 요리, 서리태
 ## 콩 고르기 - 백태와 서리태, 무엇이 다를까
 
 콩국수용 콩은 크게 두 가지입니다. 흔히 메주콩이라 부르는 노란 백태와, 겉은 검고 속은 초록빛인 서리태입니다. 어느 쪽을 써도 되지만 맛과 색이 제법 다르므로 취향에 맞게 고르는 것이 좋습니다.
+
+<figure>
+<img src="../img/homemade-kongguksu-1.webp" alt="윤기 나는 검은콩(서리태) 알갱이들" loading="lazy" decoding="async">
+<figcaption>사진: <a href="https://commons.wikimedia.org/wiki/File:Black_soybeans.jpg" rel="nofollow">Fumikas Sagisavas, Wikimedia Commons</a> (CC0)</figcaption>
+</figure>
 
 백태는 콩물 색이 뽀얗고 맛이 부드럽습니다. 식당에서 파는 콩국수 대부분이 백태 콩물이라, 익숙한 맛을 원한다면 백태가 무난합니다. 서리태는 콩물이 연한 회녹색을 띠고 백태보다 구수한 맛이 진합니다. 검은콩 특유의 향을 좋아하는 분들은 서리태 콩국수를 한 번 맛보면 백태로 돌아가기 어렵다고 할 정도입니다.
 
@@ -50,6 +60,11 @@ tags: 콩국수, 콩물, 여름 요리, 서리태
 | 표준 농도 | 1 : 1.5 | 식당 콩국수와 비슷한 부드러운 농도 |
 | 음료용 콩물 | 1 : 2 | 두유처럼 마시기 좋은 묽은 농도 |
 
+<figure>
+<img src="../img/homemade-kongguksu-2.webp" alt="유리병과 컵에 담긴 뽀얀 콩물과 흩어진 백태" loading="lazy" decoding="async">
+<figcaption>사진: <a href="https://commons.wikimedia.org/wiki/File:004-soymilk.jpg" rel="nofollow">Kjokkenutstyr, Wikimedia Commons</a> (CC BY-SA 2.0)</figcaption>
+</figure>
+
 물은 반드시 차가운 생수나 끓여 식힌 물을 사용합니다. 얼음을 서너 개 넣고 함께 갈면 콩물이 미지근해지는 것을 막을 수 있습니다. 믹서는 한 번에 오래 돌리기보다 30초씩 끊어 가며 곱게 갈아야 모터에 무리가 가지 않습니다.
 
 더 고소한 콩물을 원하면 갈 때 볶은 통깨나 잣, 캐슈너트 같은 견과류를 한 줌 넣어 보시기 바랍니다. 견과류의 기름진 맛이 더해져 농도와 풍미가 눈에 띄게 좋아집니다. 완성된 콩물은 체에 한 번 거르면 훨씬 곱지만, 입자감을 좋아한다면 거르지 않아도 괜찮습니다.
@@ -57,6 +72,11 @@ tags: 콩국수, 콩물, 여름 요리, 서리태
 ## 면 삶기와 고명 - 마지막 5분이 완성도를 가릅니다
 
 콩국수에는 얇은 소면이나 중면이 어울립니다. 면은 끓는 물에 포장지에 적힌 시간대로 삶되, 끓어오를 때마다 찬물을 반 컵씩 두어 번 부어 주면 면발이 쫄깃해집니다. 다 삶은 면은 찬물에서 전분기가 없어질 때까지 박박 비벼 헹구는 것이 중요합니다. 전분이 남으면 콩물이 금방 텁텁해집니다.
+
+<figure>
+<img src="../img/homemade-kongguksu-3.webp" alt="종이 띠지로 묶인 소면 한 다발과 놋수저" loading="lazy" decoding="async">
+<figcaption>사진: <a href="https://commons.wikimedia.org/wiki/File:Somyeon_1.jpg" rel="nofollow">ally j, Wikimedia Commons</a> (CC0)</figcaption>
+</figure>
 
 고명은 단순할수록 콩물 맛이 삽니다. 채 썬 오이와 삶은 달걀 반 개가 기본이고, 방울토마토나 수박채를 올리면 색감이 산뜻해집니다. 그릇에 헹군 면을 담고 차가운 콩물을 부은 뒤 고명을 올리고 얼음 두어 개를 띄우면 완성입니다.
 

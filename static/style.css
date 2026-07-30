@@ -158,3 +158,20 @@ a:hover { text-decoration: underline; }
   .site-nav { gap: 0; }
   .nav-cat { padding: 6px 7px; font-size: 13px; }
 }
+
+/* ---- post images (2026-07 추가) ---- */
+.post-body figure { margin: 28px 0; }
+.post-body figure img,
+.post-body p > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.post-body figcaption {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #8a8f98;
+  text-align: center;
+}
+.post-body figcaption a { color: inherit; }

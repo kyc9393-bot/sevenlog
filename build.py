@@ -303,6 +303,10 @@ def main():
 
     posts = []
     for cat in CATS:
+        # 글에 딸린 이미지 복사: content/<cat>/img/ -> _site/<cat>/img/
+        img_dir = ROOT / "content" / cat / "img"
+        if img_dir.exists():
+            shutil.copytree(img_dir, OUT / cat / "img")
         for md_file in sorted((ROOT / "content" / cat).glob("*.md")):
             meta, html, _body = parse_md_file(md_file)
             slug = md_file.stem
